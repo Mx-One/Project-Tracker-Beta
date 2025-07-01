@@ -5,10 +5,10 @@
 Create, update, and monitor project details such as address, client, contract amount, and associated sales. 
 
 - **Unlimited possibilities.**<br>
- Designed to be easily extendable with custom features to meet specific organizational needs—such as shared calendars, kanban-style production boards, inter-departmental communication tools, and more.
+ Designed to be easily extendable with custom features to meet specific organizational needs — such as shared calendars, kanban-style production boards, inter-departmental communication tools, and more.
 
 - **User Role Access.**<br>
-Role-based access control (e.g., manager, clerk) determines which actions and views are available to each user type.
+Role-based access control (e.g., project manager, owner) determines which actions and views are available to each user type.
 
 - **Real-Time Concurrency.** <br>
 Supports multi-user interaction with real-time updates—changes by one user are reflected for others without needing to refresh.
