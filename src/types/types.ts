@@ -4,8 +4,8 @@ import { ReactNode } from "react";
 interface ProjectRecord {
   id: number;
   date_quoted: string;
-  date_started: string | null;
-  date_finished: string | null;
+  date_started: string | undefined;
+  date_finished: string | undefined;
   project_address: string;
   client: string;
   contract_amount: number;

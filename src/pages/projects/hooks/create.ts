@@ -16,11 +16,11 @@ export const useCreateProject = () => {
       paid: 0,
       status: "quoted",
       date_quoted: new Date().toISOString().split("T")[0], // YYYY-MM-DD
-      date_started: null,
-      date_finished: null,
+      date_started: undefined,
+      date_finished: undefined,
       user_id_fk: user_id,
       userProfile: {
-        name: "Dana Wright",
+        name: "Dana Doe",
       },
     };
 
