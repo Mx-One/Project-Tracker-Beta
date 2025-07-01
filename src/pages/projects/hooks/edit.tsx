@@ -144,7 +144,7 @@ export const useEditProject = () => {
 
         if (paidNum > 0 && paidNum < contractNum) {
           updated.status = "active";
-          updated.date_finished = null;
+          updated.date_finished = undefined;
           if (!updated.date_started) updated.date_started = today;
 
           updateSales(projectId, updated);
@@ -155,8 +155,8 @@ export const useEditProject = () => {
           if (!updated.date_started) updated.date_started = today;
         } else {
           updated.status = "quoted";
-          updated.date_started = null;
-          updated.date_finished = null;
+          updated.date_started = undefined;
+          updated.date_finished = undefined;
         }
 
         return updated;
