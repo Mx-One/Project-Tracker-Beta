@@ -17,5 +17,5 @@ Supports multi-user interaction with real-time updates—changes by one user are
 Built with using modern ShadCN UI components for a consistent and elegant interface.
 
 ## Tech stack
-[![My Skills](https://skillicons.dev/icons?i=react,vite,ts,html,css,supabase)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=react,vite,ts,html,css,supabase,tailwind)](https://skillicons.dev)
 
