@@ -12,7 +12,7 @@ const Table = React.forwardRef<
   HTMLTableElement,
   React.HTMLAttributes<HTMLTableElement>
 >(({ className, ...props }, ref) => (
-  <div className="relative w-full flex justify-center items-center p-3">
+  <div className="w-full overflow-x-auto flex justify-center">
     <table
       ref={ref}
       className={cn("caption-top text-md", className)}
@@ -150,7 +150,7 @@ const TableCell = forwardRef<HTMLTableCellElement, TableCellProps>(
       >
         {isEditing && editable ? (
           <Input
-            className="lg:w-[150px]"
+            className="xl:w-[150px]"
             defaultValue={internalValueRef.current}
             onChange={handleInputChange}
             onBlur={handleBlur}

@@ -9,11 +9,13 @@ import {
   SidebarHeader,
   SidebarRail,
   SidebarMenuButton,
+  useSidebar,
 } from "@/components/ui/sidebar";
 
 import { ClipboardType } from "lucide-react";
 import { useUserProfile } from "@/hooks/useUserProfile";
 import { User, SidebarPageLinks } from "@/types/types";
+import { useEffect } from "react";
 
 // Sidebar Options
 const defaultPages: SidebarPageLinks[] = [
@@ -36,6 +38,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   const { data: user } = useGetIdentity<User>(); // get email from authenticated user
   const { userProfile, setUserProfile } = useUserProfile(); // get user profile data from user_profile table
   const { mutate: logoutMutate } = useLogout(); //  Handle Logout in Refine and erase stored user profile in the app
+  const { setOpen } = useSidebar(); // Sidebar context to control sidebar state
 
   const handleLogout = async () => {
     // Clear the user profile data on logout
@@ -47,6 +50,12 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
     });
     logoutMutate();
   };
+
+  useEffect(() => {
+    if (window.innerWidth < 1366) {
+      setOpen(false);
+    }
+  }, []);
 
   return (
     <Sidebar collapsible="icon" {...props}>

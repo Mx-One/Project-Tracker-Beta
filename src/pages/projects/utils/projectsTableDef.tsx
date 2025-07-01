@@ -127,7 +127,7 @@ const getTableColumnDef = ({
     progress: (
       <ProgressCell
         key="progress"
-        className="lg:min-w-[140px] justify-center items-center"
+        className="2xl:min-w-[140px] justify-center items-center"
         value={calculateProgressPercentage(
           project.contract_amount,
           project.paid

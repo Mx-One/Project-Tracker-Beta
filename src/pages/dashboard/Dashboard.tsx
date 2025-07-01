@@ -23,7 +23,7 @@ const Dashboard = () => {
 
   return (
     <ProjectsTableContextProvider>
-      <div className="grid grid-cols-4 gap-4 p-4">
+      <div className="grid grid-cols-4 gap-1 p-4">
         <div className="col-span-4 flex justify-evenly">
           <StatsTable />
         </div>

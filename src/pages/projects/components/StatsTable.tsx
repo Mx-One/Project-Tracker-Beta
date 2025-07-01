@@ -29,14 +29,16 @@ const StatsTable: React.FC = () => {
       >
         <AccordionItem value="stats-table">
           <AccordionTrigger>Stats</AccordionTrigger>
-          <AccordionContent className="flex flex-wrap gap-20 items-stretch">
-            <div className="flex gap-20 items-center">
+          <AccordionContent className="flex gap-8 xl:gap-20 items-stretch">
+            <div className="flex gap-8 xl:gap-20 items-center">
               <StatsProjectsCountCard />
               <StatsTotalAmountCard />
               <StatsCoversionRate />
             </div>
-            <StatsSalesChart />
-            <StatsProgressCard />
+            <div className="flex gap-8 xl:gap-20 items-center">
+              <StatsSalesChart />
+              <StatsProgressCard />
+            </div>
           </AccordionContent>
         </AccordionItem>
       </Accordion>
