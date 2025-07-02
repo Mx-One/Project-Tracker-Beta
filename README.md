@@ -17,10 +17,10 @@ Supports multi-user interaction with real-time updates—changes by one user are
 
 - **ShadCN UI.**<br>
 Built with using modern ShadCN UI components for a consistent and elegant interface.
+<br>
+  <img src="https://github.com/user-attachments/assets/b7a4e680-39e7-4460-bc00-9b68d230e571" alt="Stone slab cutting layout" title="Stone slab cutting layout" width="500">
 
-<img src="https://github.com/user-attachments/assets/b7a4e680-39e7-4460-bc00-9b68d230e571" alt="Stone slab cutting layout" title="Stone slab cutting layout" width="500">
-
-
+<br>
 ## Tech stack
 [![My Skills](https://skillicons.dev/icons?i=react,vite,ts,html,css,supabase,tailwind)](https://skillicons.dev)
 
