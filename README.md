@@ -1,4 +1,4 @@
-<p><b>Project Tracker</b> beta is deployed for demonstration purposes. It is designed to showcase the core functionality of the desktop version, helping teams efficiently manage and track the progress of ongoing projects.</p> <p>This app is actively used within an organization to support real-world project and sales workflows.</p>
+<p><b>Project Tracker</b> beta version is deployed for demonstration purposes. It is designed to showcase the core functionality of the app, helping teams efficiently manage and track the progress of ongoing projects.</p> <p>This app is actively used within an organization to support real-world project and sales workflows.</p>
 
 ## Features
 - **Project Management.**<br>
