@@ -19,3 +19,5 @@ Built with using modern ShadCN UI components for a consistent and elegant interf
 ## Tech stack
 [![My Skills](https://skillicons.dev/icons?i=react,vite,ts,html,css,supabase,tailwind)](https://skillicons.dev)
 
+## Test the app 
+The app is live and can be tested [HERE](https://quote-master-57500bcdd825.herokuapp.com/)
