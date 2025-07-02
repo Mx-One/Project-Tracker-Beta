@@ -20,4 +20,4 @@ Built with using modern ShadCN UI components for a consistent and elegant interf
 [![My Skills](https://skillicons.dev/icons?i=react,vite,ts,html,css,supabase,tailwind)](https://skillicons.dev)
 
 ## Test the app 
-The app is live and can be tested [HERE](project-tracker-beta-eta.vercel.app)
+The app is live and can be tested [HERE](https://project-tracker-beta-eta.vercel.app)
