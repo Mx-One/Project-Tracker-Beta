@@ -1,4 +1,4 @@
-![Image](https://github.com/user-attachments/assets/332fc95f-8edd-4fbd-9a30-69007201b683)
+![Image](https://github.com/user-attachments/assets/9e36ab66-4ab3-4db8-8e47-f6e6251b08a3)
 
 <p><b>Project Tracker</b> beta version is deployed for demonstration purposes. It is designed to showcase the core functionality of the app, helping teams efficiently manage and track the progress of ongoing projects.</p> <p>This app is actively used within an organization to support real-world project and sales workflows.</p>
 
